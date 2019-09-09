@@ -18,9 +18,12 @@ export default {
         { name: "HangZhou" },
         { name: "ShangHai" },
         { name: "QingDao" },
+        { name: "NanJing" },
+        { name: "NanJing" },
+        { name: "NanJing" },
+        { name: "NanJing" },
         { name: "NanJing" }
       ];
-
       var links = [
         { source: 0, target: 1, relation: "挚友" },
         { source: 0, target: 2, relation: "挚友" },
@@ -29,6 +32,15 @@ export default {
         { source: 1, target: 5, relation: "挚友" },
         { source: 1, target: 6, relation: "挚友" }
       ];
+      // for (var i = 0; i < 2000; i++) {
+      //   nodes.push({
+      //     name: i + "名字"
+      //   });
+      //   links.push({
+      //     source: i,
+      //     target: i + 1
+      //   });
+      // }
 
       var width = 1800;
       var height = 800;
